@@ -1,0 +1,56 @@
+{
+  "name": "eslint-config-100terres",
+  "author": "Gabriel Santerre <gab@100terres.com>",
+  "license": "MIT",
+  "description": "Modern ESlint configuration for JavaScript and TypeScript that includes Airbnb, React, jsx-a11y and Pettier rules.",
+  "homepage": "https://github.com/100terres/eslint-config#readme",
+  "version": "1.0.0-alpha.0",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "typescript.js"
+  ],
+  "keywords": [
+    "eslint",
+    "prettier",
+    "javascript",
+    "typescript",
+    "react",
+    "jsx-a11y"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/100terres/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/100terres/eslint-config/issues"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "husky install",
+    "test": "npm run lint"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "confusing-browser-globals": "^1.0.11",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "husky": "^7.0.4",
+    "prettier": "2.5.1"
+  }
+}
