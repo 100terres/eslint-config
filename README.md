@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="eslint-config-100terres is released under the MIT license." />
   </a>
 
-  <a href="#how-to-contribute">
+  <a href="#how-to-contribute-">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
   </a>
 </p>
