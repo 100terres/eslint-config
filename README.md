@@ -18,7 +18,7 @@
 
 ## A bit of context
 
-I was a tired to always re-create this little [ESlint](https://eslint.org/) configuration each time I started a new project. So I've decided to create it once and for all.
+I was a bit tired to always re-create this little [ESlint](https://eslint.org/) configuration each time I started a new project. So I've decided to create it once and for all.
 
 ## Getting Started 🚀
 
