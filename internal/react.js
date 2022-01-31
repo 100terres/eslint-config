@@ -18,6 +18,10 @@ module.exports = {
     },
   },
   rules: {
+    // https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
+
     // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
     "react/function-component-definition": [
       "error",
