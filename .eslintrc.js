@@ -1,3 +1,4 @@
 module.exports = {
-  extends: [require.resolve("./index")],
+  root: true,
+  extends: require.resolve("./js"),
 };
