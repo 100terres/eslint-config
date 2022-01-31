@@ -2,7 +2,7 @@
   "name": "eslint-config-100terres",
   "author": "Gabriel Santerre <gab@100terres.com>",
   "license": "MIT",
-  "description": "Modern ESlint configuration for JavaScript and TypeScript that includes Airbnb, React, jsx-a11y and Pettier rules.",
+  "description": "A modern ESlint configuration for JavaScript, TypeScript and React that includes the Airbnb style guide, jsx-a11y to help with accessibility and Pettier to do some code formatting.",
   "homepage": "https://github.com/100terres/eslint-config#readme",
   "version": "1.0.0-alpha.0",
   "files": [
