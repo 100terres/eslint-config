@@ -33,7 +33,7 @@
   "scripts": {
     "lint": "eslint .",
     "prepare": "husky install",
-    "release": "standard-version",
+    "release": "SKIP_PREPARE_COMMIT_MSG=true standard-version",
     "test": "npm run lint"
   },
   "peerDependencies": {
