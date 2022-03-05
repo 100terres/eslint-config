@@ -33,8 +33,8 @@ module.exports = {
       "error",
       {
         ignoreCase: true,
-        reservedFirst: true,
         shorthandFirst: true,
+        multiline: "last",
       },
     ],
   },
