@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0-alpha.3](https://github.com/100terres/eslint-config/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2022-03-05)
+
+
+### Others 🔧
+
+* **deps:** update actions/checkout action to v3 ([#17](https://github.com/100terres/eslint-config/issues/17)) ([e2fbdcb](https://github.com/100terres/eslint-config/commit/e2fbdcbb3f9225e526a26e2c30eb4e6d35d56e51))
+
 ## 1.0.0-alpha.2 (2022-03-05)
 
 

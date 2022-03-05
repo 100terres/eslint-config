@@ -4,7 +4,7 @@
   "license": "MIT",
   "description": "A modern ESlint configuration for JavaScript, TypeScript and React that includes the Airbnb style guide, jsx-a11y to help with accessibility and Pettier to do some code formatting.",
   "homepage": "https://github.com/100terres/eslint-config#readme",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "files": [
     "LICENSE",
     "README.md",
