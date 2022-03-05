@@ -1,0 +1,23 @@
+{
+  extends: ["config:base", ":prConcurrentLimitNone"],
+
+  labels: ["dependencies"],
+
+  packageRules: [
+    {
+      matchManagers: ["npm"],
+      matchDepTypes: ["dependencies"],
+      rangeStrategy: "replace",
+    },
+    {
+      matchManagers: ["npm"],
+      matchDepTypes: ["devDependencies"],
+      rangeStrategy: "pin",
+    },
+    {
+      matchManagers: ["npm"],
+      matchDepTypes: ["peerDependencies"],
+      rangeStrategy: "widen",
+    },
+  ],
+}
