@@ -9,12 +9,24 @@ const Component: React.VoidFunctionComponent<ComponentProps> = (props) => {
   const { className, children } = props;
 
   return (
-    <div className={className}>
-      <img alt="hello-world" src="/hello-world.png" />
+    <div
+      data-test-boolean
+      className={className}
+      role="button"
+      tabIndex={-1}
+      onMouseDown={() => {
+        // Multiline props are last
+      }}
+    >
+      <img alt="hello-world" key={1} src="/hello-world.png" />
 
       {children}
     </div>
   );
+};
+
+Component.defaultProps = {
+  className: undefined,
 };
 
 export default Component;
