@@ -1,6 +1,7 @@
 {
   extends: ["config:base", ":prConcurrentLimitNone"],
 
+  commitMessageAction: "update",
   commitMessagePrefix: "chore(deps):",
   labels: ["dependencies"],
 
