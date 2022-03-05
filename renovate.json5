@@ -17,7 +17,7 @@
     {
       matchManagers: ["npm"],
       matchDepTypes: ["peerDependencies"],
-      rangeStrategy: "widen",
+      rangeStrategy: "replace",
     },
   ],
 }
