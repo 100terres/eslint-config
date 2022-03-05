@@ -1,6 +1,7 @@
 {
   extends: ["config:base", ":prConcurrentLimitNone"],
 
+  commitMessagePrefix: "chore(deps)",
   labels: ["dependencies"],
 
   packageRules: [
@@ -13,11 +14,13 @@
       matchManagers: ["npm"],
       matchDepTypes: ["devDependencies"],
       rangeStrategy: "pin",
+      commitMessagePrefix: "chore(dev-deps)",
     },
     {
       matchManagers: ["npm"],
       matchDepTypes: ["peerDependencies"],
       rangeStrategy: "replace",
+      commitMessagePrefix: "chore(peer-deps)",
     },
   ],
 }
