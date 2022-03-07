@@ -17,7 +17,6 @@ module.exports = {
   plugins: {
     "@release-it/conventional-changelog": {
       infile: "CHANGELOG.md",
-      strictSemVer: true,
       preset: {
         name: "conventionalcommits",
         types: [
