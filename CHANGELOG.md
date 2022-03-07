@@ -1,4 +1,18 @@
-# Changelog
+undefined
+
+## [1.0.0-alpha.4](https://github.com/100terres/eslint-config/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2022-03-07)
+
+
+### CI 🛠
+
+* **github action:** setup commitlint github action ([#21](https://github.com/100terres/eslint-config/issues/21)) ([6083abb](https://github.com/100terres/eslint-config/commit/6083abb5a230bc1b55905684c1846a7d19ac132b))
+
+
+### Others 🔧
+
+* **github action:** run linters on push and on pull request ([#22](https://github.com/100terres/eslint-config/issues/22)) ([fd5f159](https://github.com/100terres/eslint-config/commit/fd5f159c02aca8e789f4e1294d3eb1ce34031f25))
+* **release:** change `release-it` configuration ([#20](https://github.com/100terres/eslint-config/issues/20)) ([ffa0537](https://github.com/100terres/eslint-config/commit/ffa0537da2cf39a1b563459279cb8b875b58f4c2))
+* **release:** use `release-it` instead of `standard-release` to manage releases ([#19](https://github.com/100terres/eslint-config/issues/19)) ([abed8d1](https://github.com/100terres/eslint-config/commit/abed8d18ca566eecf7c7b5c845308f8c9944ac83))# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
