@@ -1,5 +1,14 @@
 undefined
 
+## [1.0.0-alpha.5](https://github.com/100terres/eslint-config/compare/v1.0.0-alpha.4...v1.0.0-alpha.5) (2022-03-08)
+
+
+### Others 🔧
+
+* **commitizen:** move commitizen config to .czrc file ([#26](https://github.com/100terres/eslint-config/issues/26)) ([8d80af8](https://github.com/100terres/eslint-config/commit/8d80af81aca29a947136b9cfefcb8d6abe7be554))
+* **commitizen:** use `@commitlint/cz-commitlint` instead of `cz-conventional-changelog` ([#25](https://github.com/100terres/eslint-config/issues/25)) ([b0e8e74](https://github.com/100terres/eslint-config/commit/b0e8e74e01ff0897cefb0fc5a27551de7860062d))
+* **deps:** update typescript-eslint monorepo to ^5.14.0 ([#24](https://github.com/100terres/eslint-config/issues/24)) ([03743d7](https://github.com/100terres/eslint-config/commit/03743d7b22ca9996acb7063c3faa72bb3c639576))undefined
+
 ## [1.0.0-alpha.4](https://github.com/100terres/eslint-config/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2022-03-07)
 
 
