@@ -5,7 +5,7 @@ export interface ComponentProps {
   className?: string;
 }
 
-const Component: React.VoidFunctionComponent<ComponentProps> = (props) => {
+const Component: React.FunctionComponent<ComponentProps> = (props) => {
   const { className, children } = props;
 
   return (
