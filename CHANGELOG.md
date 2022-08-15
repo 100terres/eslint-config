@@ -1,5 +1,12 @@
 undefined
 
+## [1.0.0-alpha.6](https://github.com/100terres/eslint-config/compare/v1.0.0-alpha.5...v1.0.0-alpha.6) (2022-08-15)
+
+
+### Others 🔧
+
+* **deps:** update deps and support react 18 ([#47](https://github.com/100terres/eslint-config/issues/47)) ([9d1a9a5](https://github.com/100terres/eslint-config/commit/9d1a9a58bd3a436852c67dd6b785ba3ba2450706))undefined
+
 ## [1.0.0-alpha.5](https://github.com/100terres/eslint-config/compare/v1.0.0-alpha.4...v1.0.0-alpha.5) (2022-03-08)
 
 
