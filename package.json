@@ -40,10 +40,14 @@
     "eslint": "^8.0.0",
     "prettier": "^2.0.0",
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "solid-js": "^1.0.0",
     "typescript": "^4.0.0"
   },
   "peerDependenciesMeta": {
     "react": {
+      "optional": true
+    },
+    "solid-js": {
       "optional": true
     },
     "typescript": {
@@ -62,7 +66,8 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.30.1",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-solid": "^0.7.3"
   },
   "devDependencies": {
     "@commitlint/cli": "16.2.1",
